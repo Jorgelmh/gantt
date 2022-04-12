@@ -226,7 +226,7 @@ export default class Gantt {
 
         /* Add a bit of padding -> just two days */
         this.gantt_start = date_utils.add(this.gantt_start, -2, 'day');
-        this.gantt_end = date_utils.add(this.gantt_end, 2, 'day');
+        this.gantt_end = date_utils.add(this.gantt_end, 1, 'month');
     }
 
     setup_date_values() {
